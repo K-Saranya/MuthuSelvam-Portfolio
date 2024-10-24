@@ -85,7 +85,7 @@ body{
     width: 100%;
     height: 75%;
     font-size: 22px;
-    line-height: 30px;
+    line-height: 40px;
     color: rgb(254,252,225);
     display: flex;
     flex-direction: column;
@@ -272,7 +272,7 @@ body{
 }
 .workb{
     width: 100%;
-    height: 200%;
+    height: auto;
     background-color: rgb(14,15,15);
     display: flex;
     flex-direction: column;
@@ -280,53 +280,54 @@ body{
 }
 .workb1{
     width: 85%;
-    height: 100%;
+    height: auto;
     font-size: 30px;
     color: rgb(245,243,217);
     background-color: rgb(14,15,15);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 30px;
 }
 .workb1 img{
     width: 100%;
-    height: 73%;
+    height: 60%;
 }
 .wo1{
     width: 100%;
-    height: 48%;
+    height: auto;
     background-color: rgb(14,15,15);
     display: flex;
     justify-content: space-between;
 }
 .w1{
     width: 48%;
-    height: 100%;
+    height: auto;
     background-color: rgb(14,15,15);
     border: 10px rgb(20,21,20) solid;
 }
 .w2{
     width: 48%;
-    height: 100%;
+    height: auto;
     background-color: rgb(14,15,15);
     border: 10px rgb(20,21,20) solid;
 }
 .wo2{
     width: 100%;
-    height: 48%;
+    height: auto;
     background-color: rgb(14,15,15);
     display: flex;
     justify-content: space-between;
 }
 .w3{
     width: 48%;
-    height: 100%;
+    height: auto;
     background-color: rgb(14,15,15);
     border: 10px rgb(20,21,20) solid;
 }
 .w4{
     width: 48%;
-    height: 100%;
+    height: auto;
     background-color: rgb(14,15,15);
     border: 10px rgb(20,21,20) solid;
 }
@@ -340,12 +341,12 @@ body{
 }
 .met{
     width: 85%;
-    height: 08%;
+    height: 10%;
     font-size: 30px;
     color: rgb(216,215,192);
     background-color: rgb(16,17,17);
     display: flex;
-    align-content: space-between;
+    align-items: center;
 }
 .met1{
     width: 85%;
@@ -361,7 +362,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
 }
 .met11 img{
     width: 150px;
@@ -372,11 +372,13 @@ body{
     width: 78%;
     height: 96%;
     font-size: 25px;
+    line-height: 35px;
     color: rgb(254,244,180);
     background-color: rgb(20,21,20);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 30px;
 }
 .met2{
     width: 85%;
@@ -392,6 +394,7 @@ body{
 }
 .dot1{
     display:flex;
+    gap:30px;
 }
 .dot1 img{
     margin-bottom: 20px ;
@@ -534,7 +537,7 @@ ul{
 }
 .con{
     width: 100%;
-    height: 150%;
+    height: auto;
     background-color: rgb(16,17,17);
     display: flex;
     align-items: center;
@@ -615,6 +618,7 @@ textarea{
     outline: none;
 }
 button{
+    margin-top: 30px;
     margin-left: 30px;
     width: 40%;
     height: 50px;
